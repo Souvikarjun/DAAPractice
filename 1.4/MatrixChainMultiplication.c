@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include <stdlib.h>
 #include <stdbool.h>
 
 typedef struct Matrix
@@ -101,9 +102,9 @@ int main(){
     int k[number_of_matrices][number_of_matrices];
     
     int *cosT;
-    cosT = cost;
+    cosT = cost[0];
     int *ptrk;
-    ptrk = k;
+    ptrk = k[0];
     int **Cost;
     Cost = &cosT;
     int **K;
@@ -113,6 +114,8 @@ int main(){
 
     if (check(Matrices,number_of_matrices))
     {
+        printf("hello");
+        printf("%d", Cost);
         FindCost(Matrices, number_of_matrices, Cost, K);
         putBrackets(K, 0, number_of_matrices-1);
     }
