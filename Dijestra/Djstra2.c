@@ -54,36 +54,36 @@ int main() {
         }
     }
 
-    for (int i = 0; i < v-1; i++)
-    {
-        int min = __INT_MAX__;
+    // for (int i = 0; i < v-1; i++)
+    // {
+    //     int min = __INT_MAX__;
 
-        for (int m = 0; m < v; m++)
-        {        
-            if (visited[col] == 0)
-            {  
-                for (int c = 0; c < v; c++)
-                {
-                    if (min < dijcomp[i][m])
-                    {
-                        min = dijcomp[i][m];
-                        col = c;
-                    }
-                }
-            }
-        }
+    //     for (int m = 0; m < v; m++)
+    //     {        
+    //         if (visited[col] == 0)
+    //         {  
+    //             for (int c = 0; c < v; c++)
+    //             {
+    //                 if (min < dijcomp[i][m])
+    //                 {
+    //                     min = dijcomp[i][m];
+    //                     col = c;
+    //                 }
+    //             }
+    //         }
+    //     }
 
-        for (int j = 0; j < v; j++)
-        {
-            if (graph[i][j] != 0)
-            {
-                dijcomp[i+1][j] = min + graph[i][j];
-            }
+    //     for (int j = 0; j < v; j++)
+    //     {
+    //         if (graph[i][j] != 0)
+    //         {
+    //             dijcomp[i+1][j] = min + graph[i][j];
+    //         }
             
-        }
-        visited[col] = 1;
+    //     }
+    //     visited[col] = 1;
 
-    }
+    // }
     
 
 
@@ -92,9 +92,9 @@ int main() {
     {
         for (int j = 0; j < v; j++)
         {
-            printf("%d", dijcomp[i][j]);
+            printf("%d ", dijcomp[i][j]);
         }
-        
+        printf("\n");
     }
     
 
