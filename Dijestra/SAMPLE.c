@@ -58,10 +58,10 @@ int main(){
                     dj_comp[i+1][k] = dj_comp[i][k];
                 }
             }
-            // else
-            // {
-            //     dj_comp[i+1][k] = dj_comp[i][k];
-            // }
+            else
+            {
+                dj_comp[i+1][k] = dj_comp[i][k];
+            }
             
         }
         for (int l = 0; l < num; l++)
