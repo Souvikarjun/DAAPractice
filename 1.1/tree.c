@@ -48,19 +48,19 @@ void inorderTraverse(struct node *Root){
     }
 }
 
-struct node *deletion(struct node *Root, int data)
-{
-    struct node *new = Root;
-    if (new->data == data)
-    {
-        if (new->data != NULL)
-        {
+// struct node *deletion(struct node *Root, int data)
+// {
+//     struct node *new = Root;
+//     if (new->data == data)
+//     {
+//         if (new->data != NULL)
+//         {
             
-        }
+//         }
         
-    }
+//     }
     
-}
+// }
 
 
 int main(){
