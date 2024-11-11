@@ -8,10 +8,12 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Nov 04 09:44:29 2024
+# Make data base, printed on Mon Nov 11 11:18:04 2024
 
 # Variables
 
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
 SYSTEMDRIVE = C:
 # environment
@@ -35,7 +37,9 @@ MAKE_COMMAND := make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_9456_XSVNHBCEAILNRDDH
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_8936_DETWTUXMXZXOZMZN
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -78,8 +82,6 @@ MFLAGS = -pqrR
 .SHELLFLAGS := -c
 # environment
 COMMONPROGRAMW6432 = C:\Program Files\Common Files
-# environment
-EFC_7384 = 1
 # automatic
 +D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
 # makefile
@@ -87,7 +89,7 @@ MAKEFILE_LIST :=
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 9456
+VSCODE_PID = 8936
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -157,6 +159,8 @@ MAKE_VERSION := 4.4
 # environment
 PROGRAMFILES(X86) = C:\Program Files (x86)
 # environment
+EFC_7484 = 1
+# environment
 USERDOMAIN_ROAMINGPROFILE = JERVIS
 # environment
 NUMBER_OF_PROCESSORS = 4
@@ -195,7 +199,7 @@ VSCODE_ESM_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
 # variable set hash-table stats:
-# Load=91/1024=9%, Rehash=0, Collisions=8/117=7%
+# Load=93/1024=9%, Rehash=0, Collisions=9/119=8%
 
 # Pattern-specific Variable Values
 
@@ -203,9 +207,9 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
 
 # Directories
 
-# . (key e:/Study_Metarials/3rd_semester/DAA/Lab practice, mtime 1730477318): 15 files, no impossibilities.
+# . (key e:/Study_Metarials/3rd_semester/DAA/Lab practice, mtime 1731298539): 17 files, no impossibilities.
 
-# 15 files, no impossibilities in 1 directories.
+# 17 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -262,12 +266,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 22 / storage = 162 B / avg = 7 B
-# current buf: size = 8162 B / used = 162 B / count = 22 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 24 / storage = 178 B / avg = 7 B
+# current buf: size = 8162 B / used = 178 B / count = 24 / avg = 7 B
 
-# strcache performance: lookups = 26 / hit rate = 15%
+# strcache performance: lookups = 28 / hit rate = 14%
 # hash-table stats:
-# Load=22/8192=0%, Rehash=0, Collisions=0/26=0%
-# Finished Make data base on Mon Nov 04 09:44:29 2024
+# Load=24/8192=0%, Rehash=0, Collisions=0/28=0%
+# Finished Make data base on Mon Nov 11 11:18:04 2024
 
  
